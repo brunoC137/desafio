@@ -8,11 +8,16 @@ Funcionalidade: Realizar buscas no site mikuDb
 Contexto: 
 Dado que eu estou no site mikuDb
 
-
-Cenário: Realizar uma busca no site
-Dado que eu busco 'Hatsune Miku'
-Quando eu verifico os resultados
-Então eu espero en contrar varios albums
+@download&busca
+Cenário: Realizar uma busca no site e validar link Google
+Quando que eu busco 'Hatsune Miku'
+E eu clico em um resultado
+Então eu espero que o album seja baixavel
+E a cantora seja 'Hatsune Miku'
+@sobusca
+Cenário: Realizar uma busca no site e validar todos os retornos
+Quando que eu busco 'Hatsune Miku'
+Então eu espero que todos os resultados contenham 'Hatsune Miku'
 
 
 
