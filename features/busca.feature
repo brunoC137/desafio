@@ -19,7 +19,6 @@ E a cantora seja 'Hatsune Miku'
 Cenário: Realizar uma busca no site e validar todos os retornos
 Quando que eu busco 'Hatsune Miku'
 Então eu espero que todos os resultados contenham 'Hatsune Miku'
-#@busca&filtra
 #Fim dos cenários realizados com busca por CSS
 
 
@@ -34,5 +33,4 @@ E a cantora seja 'Hatsune Miku' por xpath
 Cenário: Realizar uma busca no site e validar todos os retornos por xpath
 Quando que eu busco 'Hatsune Miku' por xpath
 Então eu espero que todos os resultados contenham 'Hatsune Miku' por xpath
-#@busca&filtra_xpath
 #Fim dos cenários realizados com busca por XPATH

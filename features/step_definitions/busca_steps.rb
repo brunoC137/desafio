@@ -52,7 +52,7 @@ Quando("eu clico em um resultado por xpath") do
 end
 
 Então("eu espero que o album seja baixavel por xpath") do
-  links = all(:xpath, "//*/div[3]/div[1]/div[1]/div[2]/p[1]/a", text: "drive")
+  links = all(:xpath, "//a[contains(.,'Google Drive')]", text: "drive")
   links.each do |i|
     expect(i).to be_visible
   end
