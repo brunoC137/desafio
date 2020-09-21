@@ -49,7 +49,7 @@ Explicão: Esse cenário valida que ao entrar no album mais recente através do 
 
 
 
-# ------------------------------------------------------------------- Preparação do Ambiente---------------------------------------------------------------------
+# Preparação do Ambiente
 
 Para utilizar dessa altomação é necessário ter instalado as seguintes gems:
   gem "capybara", "3.14"
